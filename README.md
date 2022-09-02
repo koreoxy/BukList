@@ -7,58 +7,55 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# BukList (Website List-list Buku)
+BukList adalah website informasi untuk memberitahukan list-list buku dengan berbagai category.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Page Home
+![screencapture-127-0-0-1-8000-2022-09-02-22_16_53](https://user-images.githubusercontent.com/73381115/188191143-822ebf11-811f-4281-9a84-daa47e2dabf1.png)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Page List Buku
+![screencapture-127-0-0-1-8000-posts-2022-09-02-22_48_30](https://user-images.githubusercontent.com/73381115/188191545-9bb8daa0-2715-4555-bb2a-a1f83341a20d.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Page Category
+![screencapture-127-0-0-1-8000-categories-2022-09-02-22_19_57](https://user-images.githubusercontent.com/73381115/188191370-68d8a595-3678-4a3f-af70-41421df29a65.png)
 
-## Learning Laravel
+## Page Login
+![screencapture-127-0-0-1-8000-login-2022-09-02-22_20_20](https://user-images.githubusercontent.com/73381115/188191644-b4609611-6f2b-4d19-8bad-83b39cb2f06e.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Page Register
+![screencapture-127-0-0-1-8000-register-2022-09-02-22_20_32](https://user-images.githubusercontent.com/73381115/188191749-6cad3444-cf92-4997-9e27-4d7856613625.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Requirements :
+1. Pertama install composer 
+   Link : https://getcomposer.org/download/
 
-### Premium Partners
+2. install install githbash 
+   Link : https://git-scm.com/downloads
+   
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## How to run in localhost
+Project ini menggunakan Framework Laravel
+jadi untuk menjalankan project ini anda harus mengikuti langkah berikut :
 
-## Contributing
+1. install laravel di githbash menggunakan perintah.
+    > composer global require laravel/installer
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+2. kemudian buka folder projectnya, buka menggunakan gitbash.
+   > cd Project-Listbuku
 
-## Code of Conduct
+3. jalankan project laravelnya, ketik di terminal githbash nya.
+   > php artisan serve
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+4. buka control panel XAMPP dan jalankan Apache dan Mysql
 
-## Security Vulnerabilities
+5. buka local database atau localhost/phpmyadmin/
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+6. buat database baru dengan nama listbuku
 
-## License
+7. migrasi data yang ada di laravel ke database, ketik perintah di gitbashnya
+   > php artisan migrate:fresh --seed
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+8. buka link local domain dari project laravelnya http://127.0.0.1:8000
+
