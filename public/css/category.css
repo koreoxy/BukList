@@ -1,0 +1,21 @@
+.kolom2{
+    padding: 1rem;
+    background-color: #33b5e5;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.bg-title-category{
+    background-color: #39AEA9;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.bg-category{
+    background-color: #39AEA9;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

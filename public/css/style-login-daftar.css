@@ -1,0 +1,45 @@
+/* AWAL STYLE LOGIN */
+.box-bg{
+    background-color:#E5EFC1;
+    box-shadow: 20px 20px 0 0 #A7B087;
+    border-radius: 15px;
+}
+
+.judul-login{
+    color: #A7B087;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.tombol-login{
+    background-color: #A2D5AB;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    width: 265px;
+    height: 51px;
+    border-radius: 15px;
+}
+
+.bg-input-login{
+    background-color: #A7B087;
+    color: #ffff;
+}
+
+.title-brand{
+    text-align: center;
+    color: #557B83;
+    font-size: 48px;
+    font-weight: 700;
+    background-color:#E5EFC1;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+
+.menu-login{
+    padding-top: 10px;
+}
+
+
+/* AKHIR STYLE LOGIN */

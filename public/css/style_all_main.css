@@ -1,0 +1,242 @@
+body{
+    font-family: Poppins;
+    background-color: #557B83;
+}
+
+
+/* AWAL STYLE NAVBAR */
+
+
+.navbar-brand{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.navbar{
+    background-color: #39AEA9;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.text-navbar-menu{
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-nav{
+    color: #fff;
+}
+
+/* AKHIR STYLE NAVBAR */
+
+
+.container{
+    color: #fff;
+}
+
+
+/* AWAL STYLE HOME */
+
+.text-home-start1{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.text-home-start2{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.home-hero-section{
+    background-image: linear-gradient(#39AEA9, #39aea852);
+    color:#fff;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.image-home{
+    max-width: 100%;
+    height: auto; 
+}
+
+.bg-text-home{
+    padding: 5rem;
+    color: #fff;
+
+}
+
+.bg-image-home{
+    padding: 1rem;
+}
+
+.gambar1{
+    box-shadow: 10px 10px #dae26fb4;
+}
+
+.bg-gambar2-home{
+    padding-top: 80px;
+}
+
+.gambar-home{
+    box-shadow: 10px 10px 5px rgb(31, 31, 31);
+}
+
+
+/* AKHIR STYLE HOME */
+
+
+/* AWAL STYLE TOP RATING BUKU */
+
+.bg-top-trending-buku{
+    background-color: #39AEA9;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* AKHIR STYLE  TOP RATING BUKU */
+
+
+/* AWAL STYLE NEW RILIS BUKU DAN LIST BUKU */
+.bg-page{
+    background-color: transparent;
+}
+
+.card-body{
+    background-color: #1A1A1A;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 5px;
+    
+}
+
+.bi-star-fill{
+    color: #FAFF00;
+}
+
+
+.bg-list-buku{
+    background-color: #39AEA9;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.kolom{
+    padding: 1rem;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.judul-new-rilis{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card-title{
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 15px;
+    text-align: center;
+}
+
+/* AKHIR STYLE NEW RILIS BUKU DAN LIST BUKU */
+
+.kolom1{
+    padding: 1rem;
+    background-color: #39AEA9;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* AWAL STYLE INFO DETAIL BUKU */
+
+.bg-judul-detail{
+    background-color: #39AEA9;
+    color: #fff;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.bg-buku-detail{
+    padding: 1rem;
+    background-color: #39AEA9;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.sinopsis-text{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffffd3;
+}
+
+.text-informasi-buku{
+    color: #ffffffd3;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bg-image-info{
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.747) 0px 10px 6px;
+}
+
+.text-rating-detail{
+    
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bg-gambar-buku-detail{
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.747) 0px 10px 6px;
+}
+
+/* AKHIR STYLE INFO DETAIL BUKU */
+
+
+
+/* AWAL STYLE KATEGORI BUKU */
+.bg-title-category{
+    font-family: Poppins;
+}
+
+.bg-image-text{
+    background-color: #1a1a1a6e;
+}
+
+/* AKHIR STYLE KATEGORI BUKU */
+
+
+/* AWAL STYLE SEARCH */
+.bg-search{
+    background-color: #C4C4C4;
+    border-radius: 9px;
+    color: #8A8A8A;
+}
+
+.tombol-search{
+    background-color: #39AEA9;
+    color: #fff;
+    border-radius: 50px 20px;
+}
+
+/* AKHIR STYLE SEARCH */
+
+
+
+
+/* AWAL STYLE FOOTER */
+
+.list-unstyled a{
+    text-decoration: none;
+}
+
+/* AKHIR STYLE FOOTER */
